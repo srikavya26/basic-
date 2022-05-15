@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.name{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(fitness.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+    position: relative;
+}
+.title{
+    display: flex;
+    padding: 40px 20px;
+}
+.title-logo img{
+    width: 40px;
+}
+.logo{
+    flex: 5;
+}
+.logo ul{
+    margin-left: 150px;
+    display: inline;
+}
+.logo ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 25px;
+}
+.logo ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.logo ul li::after{
+    content: '';
+    width: 0;
+    height: auto;
+    background: grey;
+    display: block;
+    margin: auto;
+    transition: .5s;
+}
+.logo ul li:hover::after{
+    width: 100px;
+}
+.btn{
+    padding: 10px 20px;
+    border: 0;
+    background: grey;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.head{
+    margin: 80px 130px;
+    color: white;
+}
+.head h1{
+    font-size: 90px;
+    margin-bottom: 50px;
+    transition: .5s;
+    font-family: 'Texturina', serif;
+}
+.head h1 span{
+    color:grey;
+    font-family: 'Satisfy', cursive;
+}
